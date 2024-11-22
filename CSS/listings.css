@@ -1,0 +1,129 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333; /* Dark background for contrast */
+    color: #fff; /* White text */
+}
+
+
+
+.left-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f0a500; /* Accent color */
+}
+
+.right-header a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    margin: 0 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Listings Section */
+.listings {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.listings h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Property Card */
+.property {
+    display: inline-block;
+    width: 300px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.property img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.property h3 {
+    margin: 15px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.property p {
+    margin: 15px;
+    font-size: 1rem;
+    color: #666;
+}
+
+.details-button {
+    display: block;
+    margin: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #f0a500;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.details-button:hover {
+    background-color: #333;
+    color: #f0a500;
+}
+
+
+.footer {
+    background-color: #333; /* Dark background for contrast */
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: #f0a500; /* Accent color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #fff; /* White on hover */
+}
+
+
